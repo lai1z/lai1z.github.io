@@ -1,0 +1,50 @@
+﻿/* Local profile tweaks for a cleaner academic homepage header/sidebar. */
+.author__avatar img,
+img.author__avatar {
+  width: 96px !important;
+  height: 96px !important;
+  max-width: 96px !important;
+  border-radius: 50%;
+}
+
+.author__content,
+.author__urls-wrapper {
+  vertical-align: middle !important;
+}
+
+.author__name {
+  font-size: 1.85rem !important;
+  line-height: 1.12 !important;
+  font-weight: 800 !important;
+  margin: 0 !important;
+  padding-left: 0.9rem !important;
+}
+
+.author__bio {
+  display: none !important;
+}
+
+.author__urls-wrapper button {
+  margin-top: 0 !important;
+}
+
+@media (min-width: 64em) {
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: block !important;
+  }
+
+  .sidebar .author__avatar img,
+  .sidebar img.author__avatar {
+    width: 132px !important;
+    height: 132px !important;
+    max-width: 132px !important;
+  }
+
+  .sidebar .author__name {
+    font-size: 2.15rem !important;
+    padding-left: 0 !important;
+    margin-top: 0.65rem !important;
+  }
+}
