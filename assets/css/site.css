@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #f7f8f6;
   --surface: #ffffff;
   --ink: #1f2933;
@@ -60,6 +60,10 @@ nav {
   border-bottom: 1px solid var(--line);
 }
 
+.profile-block {
+  width: 220px;
+}
+
 .profile-photo {
   width: 220px;
   height: 220px;
@@ -68,6 +72,14 @@ nav {
   border: 1px solid var(--line);
   background: var(--surface);
   box-shadow: var(--shadow);
+}
+
+
+.profile-location {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  text-align: center;
 }
 
 .eyebrow {
